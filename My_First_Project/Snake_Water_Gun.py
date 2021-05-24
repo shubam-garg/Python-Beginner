@@ -15,14 +15,12 @@ def game(comp, player):
         if player == "s":
             print("You Won the Match")
         elif player == "g":
-            print("You Loose the Match")
-        
+            print("You Loose the Match")  
     elif comp == "g":
         if player == "s":
             print("You Loose the Match")
         elif player == "w":
-            print("You Won the Match")
-        
+            print("You Won the Match") 
     else:
         print("There is some problem")
 
@@ -37,5 +35,6 @@ else:
        comp="w"
     else:
         comp="g"
-        print("Turn of Computer : Snake(s) Water(w) or Gun(g)? :"+ comp)
-    game(comp, player)
+        
+print("Turn of Computer : Snake(s) Water(w) or Gun(g)? :"+ comp)
+game(comp, player)
