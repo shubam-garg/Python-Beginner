@@ -10,6 +10,6 @@ while(enterNum!=randomNum):
         print("Your guess is right")
     elif enterNum<randomNum:
         print("Your guess is lower")
-    else:
+    else: 
         print("Your guess is bigger")
 
